@@ -1,0 +1,62 @@
+.toolbox_container{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    bottom: 0px;
+    width: 65px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.toolbox_spacer{
+    min-height: 70px;
+    min-width: 70px;
+}
+.toolbox{
+
+    background: rgba(255, 255, 255, 0.11);
+    width: 55px;
+    margin-left: 0px;
+    border-radius: 14px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(255, 255, 255, 0.19);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.07);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 20;
+    scrollbar-color: grey transparent;
+
+}
+
+.toolbox::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+.toolbox::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+/* Handle */
+.toolbox::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+
+    border-color: rgba(255, 255, 255, 0.52);
+    /*-webkit-box-shadow: inset 0 0 4px rgba(88, 88, 88, 0.3);*/
+    background-color: rgba(85, 85, 85, 0.78);
+}
+
+/* Handle on hover */
+.toolbox::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

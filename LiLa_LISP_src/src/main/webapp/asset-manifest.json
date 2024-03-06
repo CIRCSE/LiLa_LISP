@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9d2c45c3.css",
+    "main.js": "./static/js/main.50973323.js",
+    "static/js/787.4f484203.chunk.js": "./static/js/787.4f484203.chunk.js",
+    "static/media/fontsfree-net-moonbold-webfont.woff": "./static/media/fontsfree-net-moonbold-webfont.94cb68b85c7f488b0d10.woff",
+    "static/media/fontsfree-net-moonbold-webfont.woff2": "./static/media/fontsfree-net-moonbold-webfont.aef33ec8520e5771502a.woff2",
+    "index.html": "./index.html",
+    "main.9d2c45c3.css.map": "./static/css/main.9d2c45c3.css.map",
+    "main.50973323.js.map": "./static/js/main.50973323.js.map",
+    "787.4f484203.chunk.js.map": "./static/js/787.4f484203.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d2c45c3.css",
+    "static/js/main.50973323.js"
+  ]
+}

@@ -1,0 +1,46 @@
+.circle {
+    height: 100%;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.circle span {
+    line-height: 14px;
+    display:inline-block;
+    vertical-align: middle;
+    color:#ffffff;
+}
+
+.balltext{
+    font-family: 'Open Sans', verdana;
+    /*font-size: 11px;*/
+}
+
+.ballcoloranim {
+    animation: pulse 0.5s infinite;
+
+}
+
+@keyframes pulse {
+    0%   { filter: brightness(100%) }
+    17%  { filter: brightness(90%) }
+    33%  { filter: brightness(80%) }
+    50%  { filter: brightness(70%) }
+    67%  { filter: brightness(80%) }
+    83%  { filter: brightness(90%) }
+    100% { filter: brightness(100%) }
+}
+
+@-webkit-keyframes pulse {
+    0%   { filter: brightness(100%) }
+    17%  { filter: brightness(90%) }
+    33%  { filter: brightness(80%) }
+    50%  { filter: brightness(70%) }
+    67%  { filter: brightness(80%) }
+    83%  { filter: brightness(90%) }
+    100% { filter: brightness(100%) }
+}
+

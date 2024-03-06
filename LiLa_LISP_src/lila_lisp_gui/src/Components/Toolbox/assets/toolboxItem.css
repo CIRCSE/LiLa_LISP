@@ -1,0 +1,25 @@
+.toolboxItem_Box{
+
+    background: rgba(7, 37, 57, 0.62);
+
+    min-width: 40px;
+    min-height: 40px;
+    overflow: hidden;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(255, 255, 255, 0.19);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.07);
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 28px;
+}
+
+
+.toolboxItem_Box:hover{
+    background: rgba(7, 37, 57, 0.27);
+}

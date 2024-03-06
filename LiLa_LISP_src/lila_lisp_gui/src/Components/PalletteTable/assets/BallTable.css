@@ -1,0 +1,41 @@
+.ballTable_box{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /*background-color: rgba(255, 255, 255, 0.38);*/
+    margin: 8px;
+    /*border-radius: 8px;*/
+    /*border-style: solid;*/
+    /*border-width: thin;*/
+    /*border-color: rgba(255, 255, 255, 0.19);*/
+    z-index: 10;
+}
+
+.ball_shadow {
+    -webkit-filter: drop-shadow( 2px 2px 4px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow( 2px 2px 4px rgba(0, 0, 0, 0.3));
+    /* Similar syntax to box-shadow */
+}
+
+.ball_tooltip{
+
+    background: rgba(7, 37, 57, 0.82);
+    max-width: 300px;
+    max-height: 400px;
+    padding: 8px;
+    overflow: hidden;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(255, 255, 255, 0.19);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.07);
+    margin: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+}

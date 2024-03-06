@@ -1,0 +1,55 @@
+{
+  "name": "lila_lisp_gui",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.3",
+    "@mui/x-data-grid": "^5.16.0",
+    "@svgdotjs/svg.js": "^3.1.2",
+    "@types/react": "^18.0.8",
+    "axios": "^0.27.2",
+    "jquery": "^3.4.1",
+    "papaparse": "^5.1.1",
+    "particles.js": "^2.0.0",
+    "plain-draggable": "^2.5.14",
+    "react": "^18.1.0",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5",
+    "styled-icons": "^10.47.0",
+    "svg-pan-zoom": "^3.6.1",
+    "tree-model": "^1.0.7",
+    "underscore": "^1.13.4",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf build; react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
